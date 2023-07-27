@@ -9,8 +9,10 @@ Follow the instructions for local environment: The user must have Node.js and np
 
 ```sh
 npm install -g lite-server
+```
 
 In the project directory, you can run:
 
 ```sh
 npx lite-server
+```
