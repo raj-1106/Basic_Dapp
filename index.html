@@ -36,12 +36,9 @@
     <button onclick="setMood()">Set Mood</button>
   </div>
 
-  <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+  <script src="https://cdn.ethers.io/lib/ethers-5.7.2.umd.min.js" type="application/javascript"></script>
   <script>
-    const provider = new ethers.providers.Web3Provider(
-      window.ethereum,
-      "goerli"
-    );
+    const provider = new ethers.providers.Web3Provider(window.ethereum, "sepolia");
 
     const MoodContractAddress = "0x4239875E514CDaEDf139c62286D0a5785b18Da85";
     const MoodContractABI = [
